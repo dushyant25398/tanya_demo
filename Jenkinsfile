@@ -48,7 +48,7 @@ pipeline {
             }
         }
 
-        stage('Archive') {
+        stage('tanya') {
             steps {
                 echo "Archiving the source file..."
                 archiveArtifacts artifacts: 'code', fingerprint: true
